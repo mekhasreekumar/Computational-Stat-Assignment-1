@@ -38,6 +38,9 @@ ggplot(binomial_data, aes(x = samples)) +
   scale_x_continuous(breaks = 0:n)
 ```
 
+![WhatsApp Image 2024-10-17 at 19 49 17_2dd65a99](https://github.com/user-attachments/assets/d76f894d-5c66-408f-9f2b-6052aff798b0)
+
+
 
 
 
@@ -92,6 +95,7 @@ ggplot(data = data.frame(successes = binomial_samples), aes(x = successes)) +
 ```
 
 
+![1 part b](https://github.com/user-attachments/assets/e74de22d-81b6-4537-a7a1-9efa6cc7ce47)
 
 
 
@@ -144,6 +148,7 @@ cat("Standard Error:", standard_error, "\n")
 cat("95% Confidence Interval:", lower_bound, "to", upper_bound, "\n")
 ```
 
+![1 part c](https://github.com/user-attachments/assets/2437ee08-0072-43d8-bac8-77511aa8f31f)
 
 
 
@@ -211,7 +216,9 @@ for (size in sample_sizes) {
   cat("95% Confidence Interval:", stats$ci[1], "to", stats$ci[2], "\n\n")
 }
 ```
+![2 ](https://github.com/user-attachments/assets/bd330727-4823-4aa5-9bad-d12b1a215daf)
 
+![2q](https://github.com/user-attachments/assets/9152971b-6d42-4c1c-b6fc-8d9e4d53f652)
 
 
 
@@ -291,7 +298,9 @@ ggplot(data.frame(samples), aes(x = samples)) +
   xlab("Value") + ylab("Density")
 ```
 
+![Screenshot 2024-10-17 140520](https://github.com/user-attachments/assets/aeb2f211-307e-464d-bdf6-b1c005b4ef2b)
 
+![Screenshot 2024-10-17 140506](https://github.com/user-attachments/assets/a85c6744-6d35-4308-a46d-9fa9a3a575cc)
 
 
 
@@ -316,3 +325,4 @@ ggplot(data.frame(comp_samples), aes(x = comp_samples)) +
   labs(title = "Composition Method") +
   xlab("Value") + ylab("Density")
 ```
+![Screenshot 2024-10-17 140633](https://github.com/user-attachments/assets/a25f657b-b56f-4b20-9d4b-0504c72eb365)
